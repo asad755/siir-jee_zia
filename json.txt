@@ -1,0 +1,53 @@
+// Q) What is JSON ?
+// *  JSON is a format
+// *  JSON means JavaScript Object Notation
+//-------------------------------------------
+// Q) How to Check Node is Installed
+// A) node -v
+// Q) Check TypeScript is Installed
+// A) tsc -v
+// Q) To Create tsc JSON Project
+// A) tsc --init 
+//    Some Changes in tscconfig.json
+//        "target": "ES2022", /* Set the JavaScript language version
+//        "module": "NodeNext", /* Specify what module code is generated.
+//        "moduleResolution": "NodeNext", /* Specify how TypeScript looks up a file from a given module specifier.
+// Q) To Create Package.JSON
+// A) npm init -y
+//    Some Changes in pakage.json
+//        Add type Module below main index of js
+// Q) Add Dependencies
+// A) npm i @types/node -D
+//    This is for adding (type) module in node
+//    And Add Dependency in pakage.json
+// Q) How to Install inquirer
+// A) npm i @types/inquirer
+//    npm i inquirer
+// Q) For Clear Screen
+// A) cls 
+// Q) Add file in main folder for Git
+// A) .gitignore
+// *  we use this because we don't want to send all files to git
+// Q) Add library
+// *  npm i @types/chalk
+// *  npm i chalk chalk-animation
+// Q)Add types if i delete node_modules
+// * npm i
+// * npm i -D @types/chalk
+// * npm i -D @types/chalk-animation
+// * npm i -D @types/inquirer
+// @) Now add all libraries in index.ts
+// * for adding this we use
+// * import inquirer 
+// * import chalk
+// * inport chalkAnimation from "chalk-animation";
+// Q) Now we want our file to execute in node js the statement used for this is called shibang
+// * #!usr/bin/env node
+// Q) if we Want to execute tsc and node in one line then
+// * tsc && node index.js
+// 
+// 
+// 
+// 
+// 
+Pac
